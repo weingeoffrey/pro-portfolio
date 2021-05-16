@@ -1,0 +1,105 @@
+/* Variables */
+:root {
+    --primary-color: #211752;
+    --secondary-color: #ffffff;
+    --tertiary-color: #14d18f;
+    --quaternary-color: #212121;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* body styles */
+body {
+    font-family: "Asap";
+    color: var(--secondary-color);
+}
+
+/* start intro main container stylings */
+.intro-main{
+    height: 75vh;
+    background-color: var(--primary-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+.portfolio-title {
+    font-size: 36px;
+    font-weight: bold;
+    animation-name: fade_in;
+    animation-duration: 4s;
+    animation-iteration-count: 1;
+}
+
+.portfolio-subtitle {
+    font-size: 24px;
+    font-weight: bold;
+    animation-name: fade_in;
+    animation-duration: 4s;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in;
+}
+/* end intro main container stylings */
+
+/* start header stylings */
+header {
+    background-color: var(--primary-color);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    top: 0;
+    z-index: 9999;
+}
+
+header a {
+    text-decoration: none;
+    color: var(--secondary-color);
+}
+
+header nav {
+    margin: 8px 0;
+    width: 100vw;
+}
+
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style: none;
+}
+
+header nav ul li{
+    margin: 0 30px;
+}
+
+header nav ul li:first-of-type {
+    margin-left: 0px;
+}
+
+header nav ul li:last-of-type {
+    margin-right: 0px;
+    border: 2px solid var(--tertiary-color);
+    border-radius: 10px;
+}
+
+header nav ul li a {
+    padding: 5px 5px;
+    font-weight: lighter;
+    font-size: 1.25vw;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+/* end header stylings */
+
+/* Custom Animation for Intro Section */
+@keyframes fade_in{
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}
+
