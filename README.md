@@ -7,8 +7,8 @@ A base website that is going to be used to showcase current and future projects 
 * HTML
 * CSS
 
-## Website
-https://github.com/weingeoffrey/pro-portfolio
+## Live Website
+https://weingeoffrey.github.io/pro-portfolio/
 
 ## Screenshots/Gifs
 >### 1920x1080 rendering
