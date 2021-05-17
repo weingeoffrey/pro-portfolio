@@ -9,13 +9,15 @@
     <link rel="stylesheet" href="assets/style.css" />
 </head>
 <body>
+    <!-- Intro Section -->
     <section class="intro-main">
-        <h1 class="portfolio-title">Geoffrey Wein</h1>
-        <h2 class="portfolio-subtitle">IT Professional and Future Full Stack Developer</h2>
+        <h1>Geoffrey Wein</h1>
+        <h3>IT Professional</h3>
+        <h3>Future Full Stack Developer</h3>
     </section>
     <header>
         <!-- Navigation -->
-        <nav>
+        <nav class="nav-buttons">
             <ul>
                 <li>
                     <a href="#about-me">About Me</a>
@@ -24,15 +26,74 @@
                     <a href="#projects">Projects</a>
                 </li>
                 <li>
-                    <a href="#contact-info">Get in Touch</a>
+                    <a href="#contact-info">Contact</a>
                 </li>
             </ul>
         </nav>
     </header>
 
-    <!-- Hero/jumbotron -->
-    <section>
+    <!-- About Me -->
+    <section id="about-me">
+        <div class="flex-row">
+            <!-- About Me Header -->
+            <h2 class="section-title-primary">About Me</h2>
+        </div>
+        <!-- About me parent container -->
+        <div class="about-me">
+            <article class="bio">
+                <img src="./assets/images/picture-thumbnail.JPG" alt="profile-picture" />
+                <p>
+                    Hello, my name is Geoffrey Wein and I'm currently enrolled in UT Austin's coding boot camp. I'm currently an Escalation Engineer for Microsoft Premier Support and I'm looking to
+                    transition my career path into development. I've been in the IT industry for almost 10 years, working at small businesses and large enterprises.
+                    <br /><br />
+                    I've always been interested in coding and have spent some of my personal freetime tinkering with coding. I have past experience in languages such as C#, Python, C++ and PHP. In my professional career I have
+                    implemented various automation procedures using custom scripts via PowerShell and Python. I'm excited to continue with the UT coding boot camp to expand my knowledge and allow myself to branch out into the exciting world of programming!
+                </p>
+            </article>
+        </div>
+    </section>
 
+    <!-- Projects -->
+    <section id="projects">
+        <div class="flex-row">
+            <!-- Project Header -->
+            <h2 class="section-title-secondary">Projects</h2>
+        </div>
+        <!-- Projects parent container -->
+        <div class="projects">
+            <!-- Project 1: Run Buddy -->
+            <article class="project">
+                <img class="proj-thumbnail" src="./assets/images/run-buddy.png" alt="Run Buddy" />
+                <div class="proj-overlay">
+                    <a class="proj-title" href="https://weingeoffrey.github.io/run-buddy/" target="_blank">Run Buddy</a>
+                    <h4 class="proj-subtitle">HTML/CSS</h4>
+                </div>
+            </article>
+            <!-- Project 2: Placeholder -->
+            <article class="project">
+                <img class="proj-thumbnail" src="assets/images/under-construction.jpg" alt="Under Construction" />
+                <div class="proj-overlay">
+                    <h3 class="proj-title">Under Construction</h3>
+                    <h4 class="proj-subtitle">More coming soon!</h4>
+                </div>
+            </article>
+            <!-- Project 3: Placeholder -->
+            <article class="project">
+                <img class="proj-thumbnail" src="assets/images/under-construction.jpg" alt="Under Construction" />
+                <div class="proj-overlay">
+                    <h3 class="proj-title">Under Construction</h3>
+                    <h4 class="proj-subtitle">More coming soon!</h4>
+                </div>
+            </article>
+            <!-- Project 4: Placeholder -->
+            <article class="project">
+                <img class="proj-thumbnail" src="assets/images/under-construction.jpg" alt="Under Construction" />
+                <div class="proj-overlay">
+                    <h3 class="proj-title">Under Construction</h3>
+                    <h4 class="proj-subtitle">More coming soon!</h4>
+                </div>
+            </article>
+        </div>
     </section>
 </body>
 </html>
