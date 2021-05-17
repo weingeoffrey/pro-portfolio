@@ -313,3 +313,50 @@ footer{
     100% {opacity: 1;}
 }
 
+/* MEDIA QUERY FOR TABLETS AND SMALLER */
+@media screen and (max-width: 752px) {
+    .nav-buttons a {
+        font-size: 3vw;
+    }
+
+    .section-title-primary, .section-title-secondary {
+        font-size: 4vw;
+    }
+
+    .bio, .bio p {
+        flex-direction: column;
+        padding: 5px 0px 5px 0px;
+        width: 95%;
+    }
+
+    .bio img {
+        margin: 0px;
+    }
+
+    .bio p {
+        font-size: 16px;
+    }
+
+    .projects {
+        flex-direction: column;
+    }
+
+    .project{
+        margin: 0px;
+        padding-bottom: 10px;
+    }
+
+    .proj-overlay {
+        height: calc(100% - 10px);
+        opacity: 1;
+    }
+
+    .proj-title {
+        font-size: 10vw;
+    }
+
+    footer{
+        font-size: 2.25vw;
+    }
+
+}
