@@ -266,9 +266,45 @@ header a {
 }
 /* projects section stylings end */
 
+/* contact info stylings start */
 #contact-info{
     background-color: var(--secondary-color);
     color: var(--secondary-color);
+}
+
+.contact-social{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.socialbtns {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.socialbtns li {
+    margin: 20px;
+    width: 100%;
+    position: relative;
+    text-shadow: 2px 2px 8px var(--quaternary-color);
+    flex-wrap: wrap;
+    flex: 1;
+}
+
+.socialbtns li img {
+    height: 100px;
+    width: 100px;
+    max-width: 100%;
+}
+/* contact info stylings end */
+
+footer{
+    background-color: var(--tertiary-color);
+    text-align: center;
+    padding: 10px;
+    font-size: 0.5vw;
+    text-shadow: 2px 2px 8px var(--quaternary-color);
 }
 
 /* Custom Animation for Intro Section */
