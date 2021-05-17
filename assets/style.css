@@ -2,7 +2,7 @@
 :root {
     --primary-color: #211752;
     --secondary-color: #ffffff;
-    --tertiary-color: rgb(20, 210, 143);
+    --tertiary-color: #14d28f;
     --quaternary-color: #212121;
 }
 
@@ -177,6 +177,7 @@ header a {
     width: 50vw;
     font-size: 14px;
     text-justify: auto;
+    padding: 10px;
 }
 
 .bio img {
@@ -258,6 +259,11 @@ header a {
     margin-top: 0.25;
 }
 /* projects section stylings end */
+
+#contact-info{
+    background-color: var(--secondary-color);
+    color: var(--secondary-color);
+}
 
 /* Custom Animation for Intro Section */
 @keyframes fade_in{
