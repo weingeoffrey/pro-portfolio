@@ -12,6 +12,11 @@
     box-sizing: border-box;
 }
 
+/* correct white space issue in mobile views */
+html, body {
+    overflow-x: hidden;
+}
+
 /* body styles */
 body {
     font-family: "Asap";
