@@ -26,7 +26,7 @@ body {
 
 /* start intro main container stylings */
 .intro-main{
-    height: 75vh;
+    height: 50vh;
     background-color: var(--primary-color);
     display: flex;
     align-items: center;
@@ -219,8 +219,8 @@ header a {
 
 .proj-thumbnail {
     display: block;
-    width: 100%;
     height: auto;
+    width: 100%;
 }
 
 .proj-overlay{
